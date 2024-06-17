@@ -1,0 +1,418 @@
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        margin: 0;
+    }
+
+    .header .inner-help {
+        display: none;
+    }
+
+    .header .inner-menu {
+        display: none;
+    }
+
+    .header .inner-social .manto {
+        display: none;
+    }
+
+    .header .inner-social .mannho {
+        visibility: visible;
+        margin-right: 20px;
+    }
+
+    .header .inner-logo {
+        margin-left: 20px;
+    }
+}
+
+/* Selection 1 */
+@media screen and (max-width: 480px) {
+    .selection1 .inner-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .selection1 .anh {
+        width: 100%;
+    }
+
+    .selection1 .anh .sale {
+        width: 100px;
+        height: 100px;
+        background-color: #FFC800;
+        position: absolute;
+        top: 20px;
+        right: 90px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .anh .sale :nth-child(1) {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .anh .sale :nth-child(2) {
+        font-size: 35px;
+        font-weight: 550;
+    }
+
+    .selection1 .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .selection1 .content h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 42px;
+    }
+
+    .selection1 .content .keu_goi .inner-wrap ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selection1 .content .keu_goi .inner-wrap ul li {
+        margin-bottom: 22px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .selection1 {
+        padding-bottom: 80px;
+    }
+}
+
+/* selection 2 */
+@media screen and (max-width: 480px) {
+    .selection2 .inner-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selection2 .inner-wrap .box1{
+        width: 100%;
+        margin-bottom: 20px;
+        aspect-ratio: 6/2.7;
+    }
+    .selection2 .inner-wrap .box2{
+        width: 100%;
+        margin-bottom: 20px;
+        aspect-ratio: 6/4;
+    }
+    .selection2 .inner-wrap .box3{
+        width: 100%;
+        margin-bottom: 20px;
+        aspect-ratio: 6/3.4;
+    }
+    .selection2 .box img{
+        width: 100%;
+        height: 100%;
+    }
+    .selection2 .content-box{
+        left: 20px;
+    }
+    .selection2 .content-box1 .inner-tag{
+        font-size: 17px;
+    }
+    .selection2 .content-box1 .chu-box1{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .selection2 .content-box1 .chu-box1 h3{
+        margin-right: 10px;
+        font-size: 24px;
+    }
+    .selection2 .h31{
+        margin-bottom: 0;
+        margin: 0;
+    }
+    .selection2 .h32{
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .selection2 .content-box2 .inner-title{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .selection2 .content-box2 div{
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .selection2 .content-box3 h3{
+        font-size: 26px;
+
+    }
+    .selection2 .content-box3 .gia-truoc{
+        font-size: 34px;
+    }
+    .selection2 .content-box3 .gia-sau{
+        font-size: 18px;
+    }
+}
+
+/* Selection 3 */
+@media screen and (max-width: 480px){
+    .selection3 .inner-wrap .title{
+        font-size: 34px;
+    }
+    .selection3 .inner-wrap .nd{
+        font-size: 18px;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    .selection3 .content-selec3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .selection3 .content{
+        width: 100%;
+    }
+    .selection3 .content p{
+        width: 100%;
+    }
+}
+
+/* Selection 4 */
+
+@media screen and (max-width: 480px){
+    .selection4 .inner-wrap{
+        flex-direction:column-reverse;
+    }
+    .selection4 .hinhanh{
+        width: 92%;
+        margin: 4%;
+    }
+    .selection4 .noidung{
+        width: 100%;
+        padding-left: 0;
+    }
+    .selection4 .chu{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .selection4 .noidung h3{
+        font-size: 34px;
+    }
+    .selection4 .h31{
+        margin-top: 0;
+        margin-right: 5px;
+    }
+    .selection4 .h33{
+        text-align: center;
+    }
+    .selection4 .noidung p{
+        text-align: center;
+    }
+    .selection4 .noidung .nutp4{
+        text-align: center;
+    }
+}
+
+/* Selection 5 */
+
+@media screen and (max-width: 480px){
+    .selection5 {
+        height: 400px;
+    }
+    .selection5 .inner-wrap{
+        width: 92%;
+        height: 250px;
+        margin-left: 4%;
+        background-position: center;
+        background-size: cover;
+    }
+    .selection5 .inner-wrap .button3{
+        bottom: 30px;
+        right: 35%;
+    }
+    .selection5 .thongdiep {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    .selection5 .thongdiep .ndtd{
+        text-align: center;
+
+    }
+    .selection5 .thongdiep i{
+        margin-bottom: 20px;
+    }
+}
+
+/* Selection 6 */
+
+@media screen and (max-width: 480px){
+    .selection6 .inner-wrap{
+        flex-direction: column;
+    }
+    .selection6 .hop{
+        width: 100%;
+        height: auto;
+    }
+    .selection6 .tieude{
+        font-size: 26px;
+    }
+    .selection6 .danhgia div{
+        text-align: center;
+    }
+}
+
+/* Selection 7 */
+
+@media screen and (max-width: 480px){
+    .selection7 .tieude{
+        margin-top: 0;
+        font-size: 26px;
+    }
+    .selection7 .nhap_email{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .selection7 .nhap_email form{
+        margin-bottom: 20px;
+    }
+    .selection7 .nhap_email .button{
+        padding: 12px 26px;
+    }
+}
+
+/* Selection 8 */
+
+@media screen and (max-width: 480px){
+    .selection8 .title{
+        font-size: 24px;
+    }
+    .selection8 .play{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 40%;
+        top: 26%;
+    }
+    .selection8 .play i{
+        margin-top: 28px;
+        margin-left: 9px;
+    }
+}
+
+/* Selection 9 */
+
+@media screen and (max-width: 480px){
+    .selection9 .cacbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .selection9 .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .selection9 .title i{
+        font-size: 52px;
+    }
+    .selection9 .title .chu{
+        font-size: 32px;
+    }
+    .selection9 .cacbox .box{
+        margin-bottom: 30px;
+    }
+    .selection9 .cacbox .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .selection9 .cacbox .box .text1{
+        text-align: center;
+    }
+}
+
+/* Selection 10 */
+
+@media screen and (max-width: 480px){
+    .selection10 .inner-wrap{
+        flex-direction: column;
+    }
+    .selection10 .text{
+        width: 100%;
+    }
+    .selection10 .map{
+        width: 100%;
+        height: 500px;
+    }
+    .selection10 .text1{
+        text-align: center;
+        font-size: 34px;
+    }
+    .selection10 .text2{
+        text-align: center;
+        font-size: 18px;
+    }
+    .selection10 .text3{
+        text-align: center;
+        font-size: 32px;
+    }
+    .selection10 .text4{
+        text-align: center;
+    }
+    .selection10 .text5{
+        text-align: center;
+    }
+    .selection10 .nut10{
+        margin-left: 15% ;
+        margin-right: 15% ;
+    }
+    .selection10 .icon{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .selection10 .icon a i{
+        font-size: 20px;
+    }
+}
+
+/* selection11 */
+
+@media screen and (max-width: 480px){
+    .selection11 .inner-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .selection11 .text1, .selection11 .text2, .selection11 .text3, .selection11 .text4, .selection11 .text5{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .selection11 .chu{
+        text-align: center;
+        font-size: 17px;
+    }
+}
+/* selection12 */
+
+@media screen and (max-width: 480px){
+    .footer .inner-wrap{
+        flex-direction: column;
+    }
+    .footer .text{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        font-size: 17px;
+    }
+    .footer .card{
+        width: 100%;
+    }
+    
+}
